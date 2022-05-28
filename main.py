@@ -19,16 +19,19 @@ class kahon(Button):
     def input(self, key):
         if self.hovered:
             if key == 'right mouse down':
-                ibutang = Voxel(position=self.position + mouse.normal)
+                ibutang = kahon(position=self.position + mouse.normal)
 
             if key == 'left mouse down':
                 destroy(self)
 
-class hand()
+    #def input(self, key):
+        #if self.menu:
+            #pass
 
+class hand():
 
-for z in range(30):
-    for x in range(30):
-        ibutang = kahon(position=(x, 0, z))
+    for z in range(30):
+        for x in range(30):
+         ibutang = kahon(position=(x, 0, z))
 
 duwa.run()
