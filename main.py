@@ -24,14 +24,21 @@ class kahon(Button):
             if key == 'left mouse down':
                 destroy(self)
 
-    #def input(self, key):
-        #if self.menu:
-            #pass
+    #def menu():
+        
+#class Hand(Entity):
+    #def __init__(self):
+        #super().__init__(
+            #parent = camera.ui,
+            #model = 'assets/sword',
+            #scale = 0.2,
+            #rotation = Vec3(15,-10,0),
+            #position = Vec2(0.4,-0.6))
 
-class hand():
 
-    for z in range(30):
-        for x in range(30):
-         ibutang = kahon(position=(x, 0, z))
+for z in range(30):
+    for x in range(30):
+        ibutang = kahon(position=(x, 0, z))
 
+hand = Hand()
 duwa.run()
